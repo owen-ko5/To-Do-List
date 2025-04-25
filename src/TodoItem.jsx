@@ -12,7 +12,7 @@ const TodoItem = ({ todo, toggleComplete, deleteTodo }) => {
         <span className="custom-checkbox"></span>
         <span className="todo-text">{todo.text}</span>
       </label>
-      <button className="delete-btn" onClick={() => deleteTodo(todo.id)}>✖</button>
+      <button className="delete-btn" onClick={() => deleteTodo(todo.id)}>Delete</button>
     </div>
   );
 };
